@@ -1,0 +1,5 @@
+require("parth.remap")
+require("parth.catppuccin")
+require("parth.theme")
+require("parth.set")
+require("parth.fugitive")
