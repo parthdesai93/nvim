@@ -11,7 +11,6 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "lua_ls",
-          "elixirls",
           "helm_ls"
         }
       })
@@ -22,7 +21,7 @@ return {
     config = function()
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
-      lspconfig.elixirls.setup({})
+      --lspconfig.elixirls.setup({})
       lspconfig.helm_ls.setup({})
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
