@@ -1,0 +1,412 @@
+
+10:49:42.394 [info] Loading 164 CA(s) from :otp store
+
+10:49:42.593 id=1 [debug] handled request client -> server initialize in 72ms
+
+10:49:44.124 [debug] handled notification client -> server textDocument/didOpen in 5ms
+
+10:49:44.124 [debug] sent notification server -> client window/logMessage
+
+10:49:44.127 [debug] NextLS v0.23.4 has initialized!
+
+10:49:44.127 [debug] sent notification server -> client window/logMessage
+
+10:49:44.127 [debug] Log file located at /Users/parth.desai/.config/nvim/.elixir-tools/next-ls.log
+
+10:49:44.129 [debug] sent notification server -> client window/logMessage
+
+10:49:44.129 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+10:49:44.129 id=134 [debug] sent request server -> client client/registerCapability
+
+10:49:44.916 [debug] sent notification server -> client window/logMessage
+
+10:49:44.916 [warning] Failed to unzip and install the bundled Elixir archive.
+
+** (MatchError) no match of right hand side value: {"No version is set for command erl\nConsider adding one of the following versions in your config file at /Users/parth.desai/.config/nvim/.tool-versions\nerlang 27.3\n", 126}
+    (next_ls 0.23.4) lib/next_ls/runtime/bundled_elixir.ex:55: NextLS.Runtime.BundledElixir.install/2
+    (next_ls 0.23.4) lib/next_ls.ex:882: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+    (elixir 1.17.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+
+
+
+10:49:44.916 [debug] sent notification server -> client window/logMessage
+
+10:49:44.916 [debug] Booting runtimes...
+
+10:49:44.917 [error] ** (Protocol.UndefinedError) protocol Enumerable not implemented for nil of type Atom. This protocol is implemented for the following type(s): DBConnection.PrepareStream, DBConnection.Stream, Date.Range, Exqlite.Stream, File.Stream, Function, GenEvent.Stream, HashDict, HashSet, IO.Stream, Jason.OrderedObject, List, Map, MapSet, Range, Stream
+    (elixir 1.17.3) lib/enum.ex:1: Enumerable.impl_for!/1
+    (elixir 1.17.3) lib/enum.ex:166: Enumerable.reduce/3
+    (elixir 1.17.3) lib/enum.ex:4423: Enum.reduce/3
+    (next_ls 0.23.4) lib/next_ls.ex:902: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+
+
+10:49:44.917 [debug] sent notification server -> client window/logMessage
+
+10:49:44.917 [warning] client -> server notification crashed
+
+10:49:55.954 [info] Loading 164 CA(s) from :otp store
+
+10:49:56.321 id=1 [debug] handled request client -> server initialize in 60ms
+
+10:50:48.396 [debug] handled notification client -> server textDocument/didOpen in 5ms
+
+10:50:48.396 [debug] sent notification server -> client window/logMessage
+
+10:50:48.399 [debug] NextLS v0.23.4 has initialized!
+
+10:50:48.399 [debug] sent notification server -> client window/logMessage
+
+10:50:48.399 [debug] Log file located at /Users/parth.desai/.config/nvim/.elixir-tools/next-ls.log
+
+10:50:48.400 [debug] sent notification server -> client window/logMessage
+
+10:50:48.400 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+10:50:48.400 id=6 [debug] sent request server -> client client/registerCapability
+
+10:50:48.495 [debug] sent notification server -> client window/logMessage
+
+10:50:48.495 [warning] Failed to unzip and install the bundled Elixir archive.
+
+** (MatchError) no match of right hand side value: {"No version is set for command erl\nConsider adding one of the following versions in your config file at /Users/parth.desai/.config/nvim/.tool-versions\nerlang 27.3\n", 126}
+    (next_ls 0.23.4) lib/next_ls/runtime/bundled_elixir.ex:55: NextLS.Runtime.BundledElixir.install/2
+    (next_ls 0.23.4) lib/next_ls.ex:882: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+    (elixir 1.17.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+
+
+
+10:50:48.495 [debug] sent notification server -> client window/logMessage
+
+10:50:48.495 [debug] Booting runtimes...
+
+10:50:48.496 [error] ** (Protocol.UndefinedError) protocol Enumerable not implemented for nil of type Atom. This protocol is implemented for the following type(s): DBConnection.PrepareStream, DBConnection.Stream, Date.Range, Exqlite.Stream, File.Stream, Function, GenEvent.Stream, HashDict, HashSet, IO.Stream, Jason.OrderedObject, List, Map, MapSet, Range, Stream
+    (elixir 1.17.3) lib/enum.ex:1: Enumerable.impl_for!/1
+    (elixir 1.17.3) lib/enum.ex:166: Enumerable.reduce/3
+    (elixir 1.17.3) lib/enum.ex:4423: Enum.reduce/3
+    (next_ls 0.23.4) lib/next_ls.ex:902: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+
+
+10:50:48.496 [debug] sent notification server -> client window/logMessage
+
+10:50:48.496 [warning] client -> server notification crashed
+
+10:50:54.553 [debug] handled notification client -> server textDocument/didOpen in 353µs
+
+10:51:13.717 [debug] handled notification client -> server textDocument/didChange in 12ms
+
+10:51:33.300 [debug] handled notification client -> server textDocument/didSave in 7ms
+
+10:51:46.904 [debug] handled notification client -> server textDocument/didOpen in 315µs
+
+10:52:08.187 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+10:52:10.536 [debug] handled notification client -> server textDocument/didChange in 514µs
+
+10:52:10.890 [debug] handled notification client -> server textDocument/didChange in 801µs
+
+10:52:11.041 [debug] handled notification client -> server textDocument/didChange in 719µs
+
+10:52:11.191 [debug] handled notification client -> server textDocument/didChange in 514µs
+
+10:52:11.341 [debug] handled notification client -> server textDocument/didChange in 400µs
+
+10:52:11.492 [debug] handled notification client -> server textDocument/didChange in 473µs
+
+10:52:11.670 [debug] handled notification client -> server textDocument/didChange in 592µs
+
+10:52:13.119 [debug] handled notification client -> server textDocument/didChange in 565µs
+
+10:52:13.268 [debug] handled notification client -> server textDocument/didChange in 503µs
+
+10:52:13.859 [debug] handled notification client -> server textDocument/didChange in 495µs
+
+10:52:14.009 [debug] handled notification client -> server textDocument/didChange in 518µs
+
+10:52:14.159 [debug] handled notification client -> server textDocument/didChange in 534µs
+
+10:52:18.977 [debug] handled notification client -> server textDocument/didChange in 530µs
+
+10:52:19.730 [debug] handled notification client -> server textDocument/didChange in 245µs
+
+10:52:20.476 [debug] handled notification client -> server textDocument/didChange in 426µs
+
+10:52:20.628 [debug] handled notification client -> server textDocument/didChange in 507µs
+
+10:52:20.776 [debug] handled notification client -> server textDocument/didChange in 415µs
+
+10:52:20.926 [debug] handled notification client -> server textDocument/didChange in 652µs
+
+10:52:21.076 [debug] handled notification client -> server textDocument/didChange in 720µs
+
+10:52:21.400 [debug] handled notification client -> server textDocument/didChange in 500µs
+
+10:52:22.971 [debug] handled notification client -> server textDocument/didChange in 678µs
+
+10:52:23.120 [debug] handled notification client -> server textDocument/didChange in 752µs
+
+10:52:34.193 [debug] handled notification client -> server textDocument/didChange in 974µs
+
+10:52:39.496 [debug] handled notification client -> server textDocument/didChange in 399µs
+
+10:52:39.647 [debug] handled notification client -> server textDocument/didChange in 884µs
+
+10:52:40.261 [debug] handled notification client -> server textDocument/didChange in 529µs
+
+10:52:40.409 [debug] handled notification client -> server textDocument/didChange in 401µs
+
+10:52:41.219 [debug] handled notification client -> server textDocument/didChange in 344µs
+
+10:52:41.436 [debug] handled notification client -> server textDocument/didChange in 342µs
+
+10:52:41.587 [debug] handled notification client -> server textDocument/didChange in 532µs
+
+10:52:41.736 [debug] handled notification client -> server textDocument/didChange in 436µs
+
+10:52:41.886 [debug] handled notification client -> server textDocument/didChange in 918µs
+
+10:52:42.034 [debug] handled notification client -> server textDocument/didChange in 589µs
+
+10:52:42.185 [debug] handled notification client -> server textDocument/didChange in 666µs
+
+10:52:42.437 [debug] handled notification client -> server textDocument/didChange in 517µs
+
+10:52:43.267 [debug] handled notification client -> server textDocument/didChange in 612µs
+
+10:52:43.419 [debug] handled notification client -> server textDocument/didChange in 556µs
+
+10:52:46.163 [debug] handled notification client -> server textDocument/didChange in 524µs
+
+10:52:46.550 [debug] handled notification client -> server textDocument/didChange in 513µs
+
+10:52:46.862 [debug] handled notification client -> server textDocument/didChange in 663µs
+
+10:52:47.012 [debug] handled notification client -> server textDocument/didChange in 362µs
+
+10:52:47.162 [debug] handled notification client -> server textDocument/didChange in 430µs
+
+10:52:49.664 [debug] handled notification client -> server textDocument/didChange in 501µs
+
+10:52:49.917 [debug] handled notification client -> server textDocument/didChange in 607µs
+
+10:52:50.067 [debug] handled notification client -> server textDocument/didChange in 829µs
+
+10:52:50.217 [debug] handled notification client -> server textDocument/didChange in 719µs
+
+10:52:50.366 [debug] handled notification client -> server textDocument/didChange in 577µs
+
+10:52:50.634 [debug] handled notification client -> server textDocument/didChange in 686µs
+
+10:52:50.917 [debug] handled notification client -> server textDocument/didChange in 462µs
+
+10:52:51.442 [debug] handled notification client -> server textDocument/didChange in 508µs
+
+10:52:51.617 [debug] handled notification client -> server textDocument/didChange in 508µs
+
+10:53:32.109 [debug] handled notification client -> server textDocument/didSave in 451µs
+
+10:53:35.629 id=2 [debug] handled request client -> server shutdown in 3ms
+
+10:55:15.125 [info] Loading 164 CA(s) from :otp store
+
+10:55:15.323 id=1 [debug] handled request client -> server initialize in 53ms
+
+10:55:15.733 [debug] sent notification server -> client window/logMessage
+
+10:55:15.734 [debug] handled notification client -> server textDocument/didOpen in 6ms
+
+10:55:15.736 [debug] NextLS v0.23.4 has initialized!
+
+10:55:15.736 [debug] sent notification server -> client window/logMessage
+
+10:55:15.736 [debug] Log file located at /Users/parth.desai/.config/nvim/.elixir-tools/next-ls.log
+
+10:55:15.738 [debug] sent notification server -> client window/logMessage
+
+10:55:15.738 id=69 [debug] sent request server -> client client/registerCapability
+
+10:55:15.738 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+10:55:16.376 [debug] sent notification server -> client window/logMessage
+
+10:55:16.376 [warning] Failed to unzip and install the bundled Elixir archive.
+
+** (MatchError) no match of right hand side value: {"No version is set for command erl\nConsider adding one of the following versions in your config file at /Users/parth.desai/.config/nvim/.tool-versions\nerlang 27.3\n", 126}
+    (next_ls 0.23.4) lib/next_ls/runtime/bundled_elixir.ex:55: NextLS.Runtime.BundledElixir.install/2
+    (next_ls 0.23.4) lib/next_ls.ex:882: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+    (elixir 1.17.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+
+
+
+10:55:16.376 [debug] sent notification server -> client window/logMessage
+
+10:55:16.376 [debug] Booting runtimes...
+
+10:55:16.378 [error] ** (Protocol.UndefinedError) protocol Enumerable not implemented for nil of type Atom. This protocol is implemented for the following type(s): DBConnection.PrepareStream, DBConnection.Stream, Date.Range, Exqlite.Stream, File.Stream, Function, GenEvent.Stream, HashDict, HashSet, IO.Stream, Jason.OrderedObject, List, Map, MapSet, Range, Stream
+    (elixir 1.17.3) lib/enum.ex:1: Enumerable.impl_for!/1
+    (elixir 1.17.3) lib/enum.ex:166: Enumerable.reduce/3
+    (elixir 1.17.3) lib/enum.ex:4423: Enum.reduce/3
+    (next_ls 0.23.4) lib/next_ls.ex:902: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+
+
+10:55:16.378 [debug] sent notification server -> client window/logMessage
+
+10:55:16.378 [warning] client -> server notification crashed
+
+10:55:19.147 [debug] handled notification client -> server textDocument/didChange in 7ms
+
+10:55:20.560 [debug] handled notification client -> server textDocument/didChange in 827µs
+
+10:55:21.214 [debug] handled notification client -> server textDocument/didChange in 485µs
+
+10:55:22.459 [debug] handled notification client -> server textDocument/didChange in 490µs
+
+10:55:23.868 [debug] handled notification client -> server textDocument/didSave in 4ms
+
+10:55:59.075 [info] Loading 164 CA(s) from :otp store
+
+10:55:59.184 id=1 [debug] handled request client -> server initialize in 54ms
+
+10:55:59.187 [debug] sent notification server -> client window/logMessage
+
+10:55:59.187 [debug] handled notification client -> server textDocument/didOpen in 1ms
+
+10:55:59.189 [debug] NextLS v0.23.4 has initialized!
+
+10:55:59.189 [debug] sent notification server -> client window/logMessage
+
+10:55:59.189 [debug] Log file located at /Users/parth.desai/.config/nvim/.elixir-tools/next-ls.log
+
+10:55:59.190 [debug] sent notification server -> client window/logMessage
+
+10:55:59.190 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+10:55:59.190 id=66 [debug] sent request server -> client client/registerCapability
+
+10:55:59.215 [debug] sent notification server -> client window/logMessage
+
+10:55:59.215 [warning] Failed to unzip and install the bundled Elixir archive.
+
+** (MatchError) no match of right hand side value: {"No version is set for command erl\nConsider adding one of the following versions in your config file at /Users/parth.desai/.config/nvim/.tool-versions\nerlang 27.3\n", 126}
+    (next_ls 0.23.4) lib/next_ls/runtime/bundled_elixir.ex:55: NextLS.Runtime.BundledElixir.install/2
+    (next_ls 0.23.4) lib/next_ls.ex:882: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+    (elixir 1.17.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+
+
+
+10:55:59.215 [debug] sent notification server -> client window/logMessage
+
+10:55:59.215 [debug] Booting runtimes...
+
+10:55:59.216 [error] ** (Protocol.UndefinedError) protocol Enumerable not implemented for nil of type Atom. This protocol is implemented for the following type(s): DBConnection.PrepareStream, DBConnection.Stream, Date.Range, Exqlite.Stream, File.Stream, Function, GenEvent.Stream, HashDict, HashSet, IO.Stream, Jason.OrderedObject, List, Map, MapSet, Range, Stream
+    (elixir 1.17.3) lib/enum.ex:1: Enumerable.impl_for!/1
+    (elixir 1.17.3) lib/enum.ex:166: Enumerable.reduce/3
+    (elixir 1.17.3) lib/enum.ex:4423: Enum.reduce/3
+    (next_ls 0.23.4) lib/next_ls.ex:902: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+
+
+10:55:59.216 [debug] sent notification server -> client window/logMessage
+
+10:55:59.216 [warning] client -> server notification crashed
+
+10:56:51.075 [debug] handled notification client -> server textDocument/didClose in 4ms
+
+10:57:00.311 id=2 [debug] handled request client -> server shutdown in 2ms
+
+10:57:30.406 [info] Loading 164 CA(s) from :otp store
+
+10:57:30.517 id=1 [debug] handled request client -> server initialize in 57ms
+
+10:57:49.240 [debug] handled notification client -> server textDocument/didOpen in 6ms
+
+10:57:49.240 [debug] sent notification server -> client window/logMessage
+
+10:57:49.242 [debug] NextLS v0.23.4 has initialized!
+
+10:57:49.242 [debug] sent notification server -> client window/logMessage
+
+10:57:49.242 [debug] Log file located at /Users/parth.desai/.config/nvim/.elixir-tools/next-ls.log
+
+10:57:49.246 [debug] sent notification server -> client window/logMessage
+
+10:57:49.246 id=3396 [debug] sent request server -> client client/registerCapability
+
+10:57:49.246 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+10:57:49.299 [debug] sent notification server -> client window/logMessage
+
+10:57:49.299 [warning] Failed to unzip and install the bundled Elixir archive.
+
+** (MatchError) no match of right hand side value: {"No version is set for command erl\nConsider adding one of the following versions in your config file at /Users/parth.desai/.config/nvim/.tool-versions\nerlang 27.3\n", 126}
+    (next_ls 0.23.4) lib/next_ls/runtime/bundled_elixir.ex:55: NextLS.Runtime.BundledElixir.install/2
+    (next_ls 0.23.4) lib/next_ls.ex:882: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+    (elixir 1.17.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+
+
+
+10:57:49.299 [debug] sent notification server -> client window/logMessage
+
+10:57:49.299 [debug] Booting runtimes...
+
+10:57:49.300 [error] ** (Protocol.UndefinedError) protocol Enumerable not implemented for nil of type Atom. This protocol is implemented for the following type(s): DBConnection.PrepareStream, DBConnection.Stream, Date.Range, Exqlite.Stream, File.Stream, Function, GenEvent.Stream, HashDict, HashSet, IO.Stream, Jason.OrderedObject, List, Map, MapSet, Range, Stream
+    (elixir 1.17.3) lib/enum.ex:1: Enumerable.impl_for!/1
+    (elixir 1.17.3) lib/enum.ex:166: Enumerable.reduce/3
+    (elixir 1.17.3) lib/enum.ex:4423: Enum.reduce/3
+    (next_ls 0.23.4) lib/next_ls.ex:902: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+
+
+10:57:49.300 [debug] sent notification server -> client window/logMessage
+
+10:57:49.300 [warning] client -> server notification crashed
+
+10:57:50.390 [debug] handled notification client -> server textDocument/didOpen in 236µs
+
+10:57:51.697 [debug] handled notification client -> server textDocument/didChange in 7ms
+
+10:57:51.840 [debug] handled notification client -> server textDocument/didChange in 463µs
+
+10:57:52.061 [debug] handled notification client -> server textDocument/didChange in 249µs
+
+10:57:52.210 [debug] handled notification client -> server textDocument/didChange in 355µs
+
+10:57:54.466 [debug] handled notification client -> server textDocument/didSave in 6ms
