@@ -14,9 +14,12 @@ vim.opt.rtp:prepend(lazypath)
 
 require("vim-config")
 require("lazy").setup("plugins", {
+  git = {
+    url_format = "git@github.com:%s.git",
+  },
   change_detections = {
     notify = true,
-  }
+  },
 })
 
 vim.api.nvim_create_autocmd("LspAttach", {

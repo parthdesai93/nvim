@@ -1,13 +1,14 @@
 return {
   "nvim-treesitter/nvim-treesitter",
+  tag = "v0.9.3",
   build = ":TSUpdate",
   config = function()
-    local config = require("nvim-treesitter.configs")
-    config.setup({
-      ensure_installed = {"lua", "elixir", "heex", "rust", "zig", "gleam", "javascript"},
+    require("nvim-treesitter.configs").setup({
+      ensure_installed = {"lua", "elixir", "heex", "rust", "zig", "gleam", "javascript", "markdown", "markdown_inline", "graphql"},
       sync_install = false,
-      highlight = { enable = true},
-      indent = { enable = true}
+      auto_install = true,
+      highlight = { enable = true },
+      indent = { enable = true },
     })
-  end
+  end,
 }
